@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+
+</head>
+
+<body>
+    <p id="first">this is my body 1 when you click on the text line it will hide .</p>
+    <p>this is my body 2</p>
+    <p>this is my body 3</p>
+    <p>this is my body 4</p>
+    <p>this is my body 5</p>
+    <p>this is my body 6</p>
+    <h1 class="expanded" style="opacity:0.975528258147577;">this is my body 3 alaaldh DNLHHLDHL bkdhnfnnf bndndlndn
+        bdlbLBDBLDBL dbaBDaldl aadlbaABDWIEEUPW HEH</h1>
+
+
+
+    <div class="card">
+        <div class="card-header">
+
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">Special title treatment</h2>
+            <h2 class="card-text" style="color: rgb(159, 240, 121);">
+                What Is Structured Data? - WordLift Blogwordlift.io › Blog › Vocabulary
+                Think of a table where each cell contains a discrete value. The schema represents the blueprint of how
+                the data is organized, the ... A relational database is an example of structured data: tables are linked
+                ... Unstructured data can be found in different forms: from web pages to emails, from blogs to social
+                media posts, etc.here i m using Jquery nfbb nndnaanddnn jjjjd nddhdh jdjjdjjdj jjd;JD JD;J;J;JDJJDDBV
+                OUUPII[QW[DID[I]]].</h2>
+
+        </div>
+    </div>
+    <div>
+        <button id="but" type="button" class="btn btn-dark s mt-5">Save</button>
+    </div>
+    <form action="">
+        <input type="text">
+        <textarea name="" id="" cols="30" rows="10"> this is your value my text area</textarea>
+    </form>
+
+</body>
+
+<!-- <script src="js/jquery-3.5.1.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script>
+    console.log('we are perfect')
+    //    $('selector').action()
+    $('p').click();
+    $('p').click(function () {
+        console.log('you clicked on p', this);
+        $(this).hide();
+    });
+
+    $('h1').hide()
+    $('h1').show()
+    $('h1').toggle()
+    $('h1').toggle()
+    $('h1').hide(2000)
+    $('h1').show(2000)
+    // $('h2').fadeOut();
+
+
+    // button
+    // $('#save-button').on('click', function(){
+    //     console.log('the save button is clicked ')
+    // });
+
+    // $('#save-button').click(function(){
+    //     console.log('clicked')
+    // })
+    // .addClass('bordered')
+
+    $('#but').click(function () {
+        $('h1').toggle(2000)
+    })
+    // $('#h1').slideUp(1000)
+    // console.log("done")
+    // animate function
+    // $('h2').animate({
+    //     opacity:0.3,
+    //     height: '100px',
+    //     width:'400px'
+
+    // }, 2000)
+    $('h2').animate({
+        opacity: 0.3
+
+    }, 2000);
+
+    $('h2').animate({
+        opacity: 0.9
+
+    }, 1000);
+
+    $('h2').animate({
+        width: '350px'
+
+    }, 6000);
+
+    $('h2').css('background-color','red')
+
+    $('h1').css('background-color','yellow')
+
+
+</script>
+
+
+</html>
